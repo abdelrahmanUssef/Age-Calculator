@@ -2,7 +2,12 @@ const quotes = [
     "Watch your thoughts; they become words. Watch your words; they become actions. Watch your actions; they become habits. Watch your habits; they become character. Watch your character; it becomes your destiny. – Lao-Tzu",
     "If you want to live a long life, focus on making contributions. – Hans Selye",
     "May you live as long as you wish and love as long as you live. – Robert A. Heinlein",
-    "It's not the length of life, but the depth of life. – Ralph Waldo Emerson"
+    "It's not the length of life, but the depth of life. – Ralph Waldo Emerson",
+    "Some day you will be old enough to start reading fairy tales again. – C.S. Lewis",
+    "I am not young enough to know everything. – Oscar Wilde.",
+    "No book is really worth reading at the age of ten which is not equally – and often far more – worth reading at the age of fifty and beyond. – C.S. Lewis",
+    "Wrinkles should merely indicate where the smiles have been. – Mark Twain"
+
 ];
 function calculateAge() {
     const birthdateInput = document.getElementById('birthdate');
