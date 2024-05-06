@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-section">
+        <div class="header">
+            <h1>Age Calculator</h1>
+        </div>
+        <div class="result-section">
+            <div class="box b-100">
+                <h3 >Please enter your birthdate </h3>
+                <input type="date" id="birthdate" class="datepicker" >
+                <button class="button-13" role="button"  onclick="calculateAge()">Go</button>
+            </div>
+            <div class="box b-50" > 
+                <p><b>Age </b><br><span id="side1"></span> </p>
+            </div>
+            
+            <div class="box b-50">
+                <p><b>Months</b><br><span id="side2"></span> </p>
+            </div>
+            <div class="box b-50">
+                <p><b>Weeks </b><br><span id="side3"></span> </p>
+            </div>
+            <div class="box b-50" >
+                <p><b>Days </b><br><span id="side4">  </span> </p>
+            </div>
+            <div class="box b-50">
+                <p><b>Hours </b><br><span id="side5"></span> </p>  
+            </div>
+            <div class="box b-50">
+                <p><b>Minutes </b><br><span id="side7"></span> </p>  
+            </div>
+            <div class="box b-50">
+                <p><b>Seconds </b><br><span id="side8"></span> </p>  
+            </div>
+            <div class="box b-50">
+                <p><b>Zodiac Sign </b><br><span id="zodiac" ></span> </p>
+            </div>
+            <div class="b-100 box" >
+                <p><b>For you</b><br><span id="qoute"></span> </p>
+                
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
